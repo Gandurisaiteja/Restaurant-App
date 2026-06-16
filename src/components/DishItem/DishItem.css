@@ -1,0 +1,47 @@
+.dish-card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.dish-info {
+  width: 70%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.controls button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.controls span {
+  margin: 0 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.calories {
+  color: orange;
+}
+
+.not {
+  color: red;
+}
+
+.custom {
+  color: blue;
+}

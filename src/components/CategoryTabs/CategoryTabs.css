@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  overflow-x: auto;
+  background-color: white;
+}
+
+.tabs button {
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tabs .active {
+  color: red;
+  border-bottom: 2px solid red;
+}
